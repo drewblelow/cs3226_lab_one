@@ -82,3 +82,31 @@ th, td {
     text-decoration: none;
     color: #4a72b2;
 }
+
+.student_details_container{
+    width: 100%;
+}
+
+.student_particulars{
+    float: left;
+    width: 70%;
+}
+
+.student_photo{
+    float: right;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.country_flag{
+    float: right;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cross_out{
+    background-color: #f7ada5;
+
+}
