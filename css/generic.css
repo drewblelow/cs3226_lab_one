@@ -14,7 +14,6 @@ th, td {
     border: 1px;
     border-style: solid;
     border-radius: 5px;
-    border-color: black;
     font-family: sans-serif;
     font-size: 20px;
     border-color: #dddddd;
@@ -109,4 +108,21 @@ th, td {
 .cross_out{
     background-color: #f7ada5;
 
+}
+
+#admin_login_page_login_box_container{
+    width: 100%;
+}
+
+#admin_login_page_login_box{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #dddddd;
+}
+
+#login_box_header{
+    text-align: center;
 }
