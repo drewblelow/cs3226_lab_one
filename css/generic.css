@@ -107,11 +107,6 @@ th, td {
 
 .cross_out{
     background-color: #f7ada5;
-
-}
-
-#admin_login_page_login_box_container{
-    width: 100%;
 }
 
 #admin_login_page_login_box{
@@ -123,6 +118,7 @@ th, td {
     border-color: #dddddd;
 }
 
-#login_box_header{
-    text-align: center;
+#login_box_table{
+    border: 0px;
+    border-color: #ffffff;
 }

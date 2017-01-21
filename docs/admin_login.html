@@ -20,12 +20,24 @@
         <div id="admin_login_page_login_box">
             <h3>Login</h3>
             <form>
-                Username:<br>
-                <input type="text" name="username"><br>
-                Password:<br>
-                <input type="password" name="password"><br>
-                <input type="checkbox" name="remember_credentials">Remember Credentials<br>
-                <button name="Login" onclick="alertLogin()">Login</button>
+                <table id="login_box_table">
+                    <tr>
+                        <td class="login_col_one">Username</td>
+                        <td class="login_col_two"><input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td class="login_col_one">Password</td>
+                        <td class="login_col_two"><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td class="login_col_one"></td>
+                        <td class="login_col_two"><input type="checkbox" name="remember_credentials">Remember Credentials</td>
+                    </tr>
+                    <tr>
+                        <td class="login_col_one"></td>
+                        <td class="login_col_two"><button name="Login" onclick="alertLogin()">Login</button></td>
+                    </tr>
+                </table>
             </form>
         </div>
     </div>
