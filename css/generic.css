@@ -71,9 +71,14 @@ th, td {
 }
 
 .generic_table_data_colour_silver{
-    background-color: #7e8899;
+    background-color: #adafb2;
 }
 
 .generic_table_data_colour_bronze{
     background-color: #c6681b;
+}
+
+.landing_page_student_links{
+    text-decoration: none;
+    color: #4a72b2;
 }
