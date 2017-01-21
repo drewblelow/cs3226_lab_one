@@ -1,3 +1,13 @@
+* {
+    font-family: arial;
+    font-size: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #cccccc;
+    height:24px;
+}
+
 .generic_header_container{
     width: 100%;
     height: 50px;
@@ -7,10 +17,12 @@
     border-color: black;
     font-family: sans-serif;
     font-size: 20px;
-
+    border-color: #dddddd;
+    color: #777777;
 }
 
 .generic_header_home{
+    color: inherit;
     float: left;
     height:inherit;
     position:relative;
@@ -20,24 +32,48 @@
 }
 
 .generic_header_help{
+    color: inherit;
     float: left;
-    height:inherit;
+    height: inherit;
     position:relative;
     top:25%;
-    padding-left: 10px;
+    padding-left: 30px;
     text-decoration: none;
 }
 
 .generic_header_login{
+    color: inherit;
     float: right;
     height:inherit;
-    position:relative;
+    position: relative;
     top:25%;
     padding-right: 10px;
     text-decoration: none;
 }
 
+.generic_header_spacer{
+    height: 15px;
+}
+
 .generic_page_footer{
     width: 100%;
     text-align: center;
+}
+
+.generic_table{
+    width: 100%;
+    text-align: left;
+    border-color: #cccccc;
+}
+
+.generic_table_data_colour_gold{
+    background-color: #f4df42;
+}
+
+.generic_table_data_colour_silver{
+    background-color: #7e8899;
+}
+
+.generic_table_data_colour_bronze{
+    background-color: #c6681b;
 }
