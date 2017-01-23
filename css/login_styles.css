@@ -1,0 +1,43 @@
+#admin_login_page_login_box{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #dddddd;
+}
+
+#login_box_table{
+    border: 0px;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+#login_title{
+    text-align: center;
+}
+
+.login_box_row{
+    width: 100%;
+}
+
+.login_col_one{
+    width: 40%;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login_col_two{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#login_padding{
+    height: 15px;
+}
