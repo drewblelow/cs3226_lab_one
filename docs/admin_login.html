@@ -18,24 +18,38 @@
         <div class="generic_header_spacer"></div>
 
         <div id="admin_login_page_login_box">
-            <h3>Login</h3>
+            <h3 id="login_title">Login</h3>
             <form>
                 <table id="login_box_table">
                     <tr>
-                        <td class="login_col_one">Username</td>
-                        <td class="login_col_two"><input type="text" name="username"></td>
+                        <div class="login_box_row">
+                            <td class="login_col_one">Username</td>
+                            <td class="login_col_two"><input type="text" name="username"></td>
+                        </div>
                     </tr>
                     <tr>
-                        <td class="login_col_one">Password</td>
-                        <td class="login_col_two"><input type="password" name="password"></td>
+                        <div class="login_box_row">
+                            <td class="login_col_one">Password</td>
+                            <td class="login_col_two"><input type="password" name="password"></td>
+                        </div>
                     </tr>
                     <tr>
-                        <td class="login_col_one"></td>
-                        <td class="login_col_two"><input type="checkbox" name="remember_credentials">Remember Credentials</td>
+                        <div class="login_box_row">
+                            <td class="login_col_one"></td>
+                            <td class="login_col_two"><input type="checkbox" name="remember_credentials">Remember Credentials</td>
+                        </div>
                     </tr>
                     <tr>
-                        <td class="login_col_one"></td>
-                        <td class="login_col_two"><button name="Login" onclick="alertLogin()">Login</button></td>
+                        <div class="login_box_row">
+                            <td class="login_col_one"></td>
+                            <td class="login_col_two"><button name="login" onclick="alertLogin()">Login</button></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="login_box_row">
+                            <td class="login_col_one" id="login_padding"></td>
+                            <td class="login_col_two"></td>
+                        </div>
                     </tr>
                 </table>
             </form>

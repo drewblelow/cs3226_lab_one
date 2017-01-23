@@ -3,10 +3,12 @@
     font-size: 100%;
 }
 
-th, td {
+tr.generic_table_header, tr.generic_table_data_colour_gold, tr.generic_table_data_colour_silver, tr.generic_table_data_colour_bronze{
     border-bottom: 1px solid #cccccc;
     height:24px;
 }
+
+
 
 .generic_header_container{
     width: 100%;
@@ -120,5 +122,35 @@ th, td {
 
 #login_box_table{
     border: 0px;
-    border-color: #ffffff;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+#login_title{
+    text-align: center;
+}
+
+.login_box_row{
+    width: 100%;
+}
+
+.login_col_one{
+    width: 40%;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login_col_two{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#login_padding{
+    height: 15px;
 }
